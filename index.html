@@ -418,6 +418,13 @@
       <a class="nav-link" href="#hobby" data-bs-toggle="tab">Hobby</a>
     </li>
   </ul>
+  <!-- The contents of the tab must be kept in the bs class tab-content -->
+
+  <!-- The tab-pane class is added so that the content inside the tab-content classes are hidden  -->
+
+  <!-- The data-bs-toggle is added to the <a> so that the after the link is clicked the paragraphs are shown -->
+
+  <!-- The fade class is added to the content so that there is an animation after the click  -->
 
   <div class="tab-content mt-4">
 
@@ -446,6 +453,114 @@
   </div>
 
   <!-- Toggleable dynamic tab ends -->
+
+  <!-- pills tab starts -->
+  <!-- instead of nav-tabs only nav-pills are used -->
+  <div class="pill-sections mt-5 container">
+
+    <ul class="nav nav-pills">
+   
+      <li class="nav-item">
+        <a class="nav-link" href="#edu" data-bs-toggle="pill">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills" data-bs-toggle="pill">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#hobby" data-bs-toggle="pill">Hobby</a>
+      </li>
+    </ul>
+    <!-- The contents of the tab must be kept in the bs class tab-content -->
+  
+    <!-- The tab-pane class is added so that the content inside the tab-content classes are hidden  -->
+  
+    <!-- The data-bs-toggle is added to the <a> so that the after the link is clicked the paragraphs are shown -->
+  
+    <!-- The fade class is added to the content so that there is an animation after the click  -->
+  
+    <div class="tab-content mt-4">
+  
+      <div id="edu" class="tab-pane fade">
+  
+        <p>1.Lorem ifur dolor sit amet consectetur adipisicing elit. Iste molestias recusandae maxime expedita quidem quos, mollitia culpa in quaerat suscipit!</p>
+    
+      </div>
+    
+      <div id="skills" class="tab-pane fade">
+    
+        <p>2.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste molestias recusandae maxime expedita quidem quos, mollitia culpa in quaerat suscipit!</p>
+    
+      </div>
+      
+      <div id="hobby" class="tab-pane fade">
+    
+        <p>3.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste molestias recusandae maxime expedita quidem quos, mollitia culpa in quaerat suscipit!</p>
+    
+      </div>
+      
+      
+    </div>
+    
+  
+  </div>
+
+  <!-- pills tab ends -->
+
+  <!-- <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> -->
+    <!-- Navbar content -->
+  <!-- </nav> -->
+  
+  <!-- <nav class="navbar bg-primary" data-bs-theme="dark"> -->
+    <!-- Navbar content -->
+  <!-- </nav> -->
+  
+  <nav class="navbar" style="background-color: #e3f2fd" >
+    <nav class="navbar navbar-expand-sm ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </nav>
+<!-- Making the card a link to another website by using the class stretched-link -->
+  <div class="card mt-5" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a target="_blank" href="https://www.cricbuzz.com/" class="card-link stretched-link"></a>
+    </div>
+  </div>
 
 
 
